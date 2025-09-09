@@ -139,13 +139,12 @@ results = evaluate_models([rf_model, mlp_model], test_data)
 │   ├── tasks.csv
 │   ├── suppliers.csv
 │   └── costs.csv
-├── src/
-│   ├── models/
-│   ├── preprocessing/
-│   └── evaluation/
-├── notebooks/
-│   └── exploratory_analysis.ipynb
+├── models/
+│   └── ...
 ├── helpers/
+│   └── ...
+├── eda/
+│   └── ...
 └── requirements.txt
 ```
 
