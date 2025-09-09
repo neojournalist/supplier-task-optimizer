@@ -112,26 +112,6 @@ cd cost-sensitive-supplier-allocation
 pip install -r requirements.txt
 ```
 
-### Usage
-```python
-# Load and prepare data
-from helpers.helpers_prep import load_datasets, preprocess_data
-from helpers.helpers_ml import evaluate_models
-
-# Load datasets (ensure data files are in your local directory)
-tasks_df, suppliers_df, costs_df = load_datasets()
-
-# Train models
-from models.final_rf import RandomForestModel
-from models.final_mlp import MLPModel
-
-rf_model = RandomForestModel()
-mlp_model = MLPModel()
-
-# Evaluate performance
-results = evaluate_models([rf_model, mlp_model], test_data)
-```
-
 ## 📋 Project Structure
 
 ```
